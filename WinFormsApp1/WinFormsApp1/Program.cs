@@ -12,7 +12,7 @@ namespace WinFormsApp1
             // see https://aka.ms/applicationconfiguration.
 
             int count = 0;
-            count++;
+            count += 100;
             
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
